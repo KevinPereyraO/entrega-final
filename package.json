@@ -1,0 +1,25 @@
+{
+  "name": "entrega-sass",
+  "version": "1.0.0",
+  "description": "Entrega de SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/prueba.scss css/pruebacss.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinPereyraO/entrega-sass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KevinPereyraO/entrega-sass/issues"
+  },
+  "homepage": "https://github.com/KevinPereyraO/entrega-sass#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
